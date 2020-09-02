@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1e1de54213a844048f827cc6491f22ee" Name="Diagram1">
+        <EntityTypeShape EntityType="dbOnlineShopModel.Tbl_Cart" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbOnlineShopModel.Tbl_Cart_Status" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbOnlineShopModel.Tbl_Category" Width="1.5" PointX="1.5" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbOnlineShopModel.Tbl_MemberRole" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbOnlineShopModel.Tbl_Members" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbOnlineShopModel.Tbl_Product" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbOnlineShopModel.Tbl_Roles" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbOnlineShopModel.Tbl_ShoppingDetails" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbOnlineShopModel.Tbl_SlideImage" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="dbOnlineShopModel.FK__Tbl_Cart__IdCart__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="dbOnlineShopModel.FK__Tbl_Cart__IdMemb__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="dbOnlineShopModel.FK__Tbl_Cart__IdProd__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="dbOnlineShopModel.FK__Tbl_Produ__IdCat__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="dbOnlineShopModel.FK__Tbl_Membe__IdMem__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="dbOnlineShopModel.FK__Tbl_Membe__IdRol__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="dbOnlineShopModel.FK__Tbl_Shopp__IdMem__412EB0B6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

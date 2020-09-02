@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbOnlineShopModelStoreContainer" CdmEntityContainer="dbOnlineShopEntities">
+    <EntitySetMapping Name="Tbl_Cart">
+      <EntityTypeMapping TypeName="dbOnlineShopModel.Tbl_Cart">
+        <MappingFragment StoreEntitySet="Tbl_Cart">
+          <ScalarProperty Name="IdCart" ColumnName="IdCart" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="IdMember" ColumnName="IdMember" />
+          <ScalarProperty Name="IdCartStatus" ColumnName="IdCartStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Cart_Status">
+      <EntityTypeMapping TypeName="dbOnlineShopModel.Tbl_Cart_Status">
+        <MappingFragment StoreEntitySet="Tbl_Cart_Status">
+          <ScalarProperty Name="IdCartStatus" ColumnName="IdCartStatus" />
+          <ScalarProperty Name="CartStatus" ColumnName="CartStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Category">
+      <EntityTypeMapping TypeName="dbOnlineShopModel.Tbl_Category">
+        <MappingFragment StoreEntitySet="Tbl_Category">
+          <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Isdelete" ColumnName="Isdelete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_MemberRole">
+      <EntityTypeMapping TypeName="dbOnlineShopModel.Tbl_MemberRole">
+        <MappingFragment StoreEntitySet="Tbl_MemberRole">
+          <ScalarProperty Name="IdMemberRole" ColumnName="IdMemberRole" />
+          <ScalarProperty Name="IdMember" ColumnName="IdMember" />
+          <ScalarProperty Name="IdRole" ColumnName="IdRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Members">
+      <EntityTypeMapping TypeName="dbOnlineShopModel.Tbl_Members">
+        <MappingFragment StoreEntitySet="Tbl_Members">
+          <ScalarProperty Name="IdMember" ColumnName="IdMember" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Product">
+      <EntityTypeMapping TypeName="dbOnlineShopModel.Tbl_Product">
+        <MappingFragment StoreEntitySet="Tbl_Product">
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Isdelete" ColumnName="Isdelete" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProductImage" ColumnName="ProductImage" />
+          <ScalarProperty Name="Isfeatured" ColumnName="Isfeatured" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Roles">
+      <EntityTypeMapping TypeName="dbOnlineShopModel.Tbl_Roles">
+        <MappingFragment StoreEntitySet="Tbl_Roles">
+          <ScalarProperty Name="IdRole" ColumnName="IdRole" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_ShoppingDetails">
+      <EntityTypeMapping TypeName="dbOnlineShopModel.Tbl_ShoppingDetails">
+        <MappingFragment StoreEntitySet="Tbl_ShoppingDetails">
+          <ScalarProperty Name="IdShoppingDetail" ColumnName="IdShoppingDetail" />
+          <ScalarProperty Name="IdMember" ColumnName="IdMember" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="IdOrder" ColumnName="IdOrder" />
+          <ScalarProperty Name="AmountPaid" ColumnName="AmountPaid" />
+          <ScalarProperty Name="PaymentType" ColumnName="PaymentType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_SlideImage">
+      <EntityTypeMapping TypeName="dbOnlineShopModel.Tbl_SlideImage">
+        <MappingFragment StoreEntitySet="Tbl_SlideImage">
+          <ScalarProperty Name="IdSlide" ColumnName="IdSlide" />
+          <ScalarProperty Name="SlideTitle" ColumnName="SlideTitle" />
+          <ScalarProperty Name="SlideImage" ColumnName="SlideImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
